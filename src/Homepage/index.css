@@ -1,0 +1,107 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.bloglist-main-page-container{
+    background-color: #33cc33;
+    height: 72vh;
+}
+
+@media screen and (max-width: 769px){
+    .bloglist-main-page-container{
+        background-color: #33cc33;
+        height: 100vh;
+    }
+    .blog-image{
+        height: 40px;
+        width: 250px;
+        margin-left: 2rem;
+        border-radius: 10px;
+    }
+    .main-page-text-section h1{
+        font-size: 10px;
+    }
+    .main-page-text-section p{
+        font-size: 20px;
+    }
+}
+
+.main-page-center-container{
+    display: flex;
+    justify-content: space-between;
+}
+.main-page-text-section{
+    color: #ffffff;
+    margin-left: 4rem;
+    margin-top: 10rem;
+}
+.main-page-text-section h1{
+    font-size: 50px;
+}
+.main-page-text-section p{
+    font-size: 20px;
+}
+.main-page-text-section div{
+    background-color: #ffffff;
+    color: #33cc33;
+    height: 48px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 2.5rem;
+    font-size: 17px;
+}
+.blog-image{
+    height: 250px;
+    margin-top: 10rem;
+    margin-right: 8rem;
+    border-radius: 50%;
+}
+footer{
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+.socials li{
+    margin: 0 15px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}

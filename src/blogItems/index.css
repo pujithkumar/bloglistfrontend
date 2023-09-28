@@ -1,0 +1,36 @@
+.blog-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.blog-list-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.blog-card{
+    height: 120px;
+    width: 550px;
+    border-color: black;
+    border-style: solid;
+    padding: 12px;
+    border-width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px lightblue; 
+}
+
+.blog-card h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.blog-card p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
